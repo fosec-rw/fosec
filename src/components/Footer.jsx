@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../assets/fosec_logo.svg';
 
 const Footer = () => {
     return (
         <div className='flex flex-col p-6 text-white bg-gradient-to-br from-[#043400] to-[#111111]'>
             <div className='flex flex-col md:flex-row justify-between items-center w-full'>
                 <div className='mb-4 md:mb-0 md:w-2/5'>
-                    <h1 className='text-2xl font-bold'>Fosec</h1>
+                    <h1 className='text-2xl font-bold flex items-center'><span><img src={logo} alt="Fosec" className='text-white inline mx-1 mb-1'/></span>Fosec</h1>
                     <p className='text-sm mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolores dolorum accusamus modi, culpa soluta. Atque dignissimos ea, non maxime explicabo corrupti modi error illum, ducimus distinctio illo laudantium voluptas.</p>
                 </div>
                 <div className='flex flex-col'>

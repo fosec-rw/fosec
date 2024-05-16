@@ -20,6 +20,9 @@ const Contact = () => {
                     <label htmlFor="message">Your Message</label>
                     <textarea name="message" id="message" placeholder='Your message' cols={30} className='block border-2 border-[#949494] rounded-md px-2 m-2 resize-none'></textarea>
                     </div>
+                    <div className='my-5 mx-2'>
+                        <button type="submit" className='text-white bg-gradient-to-br from-[#043400] to-[#111111] py-2 px-4 rounded-md'>Submit</button>
+                    </div>
                 </form>
                 <img src={image} alt="Feel free to contact us" className='w-1/3'/>
             </div>
