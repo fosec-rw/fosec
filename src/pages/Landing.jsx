@@ -5,6 +5,7 @@ import Features from '../components/Features';
 import Home from '../components/Home';
 import Contact from '../components/Contact';
 import Services from '../components/Services';
+import Footer from '../components/Footer';
 
 export const LandingPage = () => {
   return (
@@ -21,6 +22,9 @@ export const LandingPage = () => {
       </section>
       <section id="contact">
         <Contact />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );
