@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row justify-between items-center w-full'>
                 <div className='mb-4 md:mb-0 md:w-2/5'>
                     <h1 className='text-2xl font-bold flex items-center'><span><img src={logo} alt="Fosec" className='text-white inline mx-1 mb-1'/></span>Fosec</h1>
-                    <p className='text-sm mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolores dolorum accusamus modi, culpa soluta. Atque dignissimos ea, non maxime explicabo corrupti modi error illum, ducimus distinctio illo laudantium voluptas.</p>
+                    <p className='text-sm mt-2'>We’re committed to empowering farmers, connecting communities, and driving innovation in agriculture. By leveraging technology, we aim to build a more sustainable and efficient future for food production. Together, we’re growing stronger, one harvest at a time.</p>
                 </div>
                 <div className='flex flex-col'>
                     <h2 className='font-semibold mb-2'>Feedback</h2>
@@ -28,7 +28,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='flex flex-col'>
-                    <h2 className='font-semibold mb-2'>Product</h2>
+                    <h2 className='font-semibold mb-2 md:w-full'>Product</h2>
                     <ul className='space-y-1'>
                         <li>System settings</li>
                         <li>Help center</li>
