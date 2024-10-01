@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React, { useState } from 'react';
-import logo from '../assets/fosec_logo.svg';
+import logo from '../assets/eco_plant.svg';
 import Button from './Button';
 
 const Navbar = () => {
@@ -13,8 +13,8 @@ const Navbar = () => {
   return (
     <nav className="p-4 border-[#6FFF63] border-x-0 border-t-0 border">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-[#0F4901] text-2xl font-bold flex items-center">
-          <span className='mx-3'><img src={logo} alt="fosec" className='w-7'/></span>
+        <div className="text-[#1b8500] text-2xl font-bold flex items-center">
+          <span className=''><img src={logo} alt="fosec" className='w-10'/></span>
           Fosec
         </div>
         <div className="hidden md:flex space-x-8">
