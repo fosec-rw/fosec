@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/fosec_logo.svg';
+import logo from '../assets/eco_plant.svg';
 
 const Footer = () => {
     return (
@@ -14,7 +14,7 @@ const Footer = () => {
                     <form className='flex flex-col space-y-2'>
                         <input type='email' placeholder='Enter your email address' className='p-2 rounded-md border' />
                         <textarea placeholder='Enter your message' className='p-2 rounded-md border h-24 resize-none'></textarea>
-                        <button type='submit' className='px-4 py-2 bg-green-600 text-white rounded-md'>Send</button>
+                        <button type='submit' className='px-4 py-2 bg-[#1a8500] text-white rounded-md'>Send</button>
                     </form>
                 </div>
                 <div className='flex flex-col'>

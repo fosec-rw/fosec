@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 export const LandingPage = () => {
   return (
-    <div>
+    <div className='dark:bg-[#1E231D]'>
       <Navbar />
       <section id="home">
         <Home />
