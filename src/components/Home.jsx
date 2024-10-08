@@ -12,7 +12,7 @@ const Home = () => {
         <p className='text-[#363636] font-medium my-6  dark:text-[#E9E9E9]'>
           At FOSEC, we believe in transforming agriculture through the power of technology. Our platform provides farmers with the tools they need to improve yields, make smarter decisions, and secure their supply chains. Whether you're a farmer looking for real-time advice or a customer seeking transparency in the food you consume, FOSEC is here to make a difference. Together, we’re creating a sustainable future for farming and food security.
         </p>
-        <button className="font-medium text-white border border-[#E0E0E0] my-6 px-5 py-2 rounded-md bg-[#0F4901] hover:text-[#E0E0E0] w-full md:w-1/2 lg:w-1/4">
+        <button className="font-medium text-white border border-[#E0E0E0] my-6 px-5 py-2 rounded-md bg-[#0F4901] hover:text-[#E0E0E0] w-full md:w-1/2 lg:w-1/4 dark:border-none">
           Get Started
         </button>
       </div>
