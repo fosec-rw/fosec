@@ -19,7 +19,7 @@ const Home = () => {
           for farming and food security.
         </p>
         <a
-          href="/android/fosec.apkgi"
+          href="https://drive.google.com/uc?export=download&id=195yNnJ6hlVA_v8YyLVhYWvh_KtrxvVBy"
           download="fosec.apk"
           target="_blank"
           rel="noopener noreferrer"
