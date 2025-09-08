@@ -61,7 +61,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-      </div>
+        </div>
 
       {/* Mobile Menu */}
       {isOpen && (
